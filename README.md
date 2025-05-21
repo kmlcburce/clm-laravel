@@ -23,7 +23,7 @@ This is the backend service for the CLM project, built using Laravel and Postgre
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/clm-laravel.git
+   git clone https://github.com/kmlcburce/clm-laravel.git
    cd clm-laravel
     ```
 2. **Install dependencies
