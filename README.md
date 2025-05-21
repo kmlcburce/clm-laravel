@@ -26,11 +26,11 @@ This is the backend service for the CLM project, built using Laravel and Postgre
    git clone https://github.com/kmlcburce/clm-laravel.git
    cd clm-laravel
     ```
-2. **Install dependencies
+2. **Install dependencies**
     ```
     composer install
     ```
-3. Set environment variables
+3. **Set environment variables**
     ```
     cp .env.example .env
     nano .env
@@ -43,15 +43,15 @@ This is the backend service for the CLM project, built using Laravel and Postgre
     DB_USERNAME=your_username
     DB_PASSWORD=your_password
     ```
-4. Generate app key
+4. **Generate app key**
     ```
     php artisan key:generate
     ```
-5. Run migrations
+5. **Run migrations**
     ```
     php artisan migrate
     ```
-6. Start the server (for local setup)
+6. **Start the server (for local setup)**
     ```
     php artisan serve
     ```
